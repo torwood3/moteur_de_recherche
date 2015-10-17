@@ -8,7 +8,8 @@ module.exports = function() {
 
     var router = express.Router();
     router.get('/', function (req, res) {
-        res.render("index");
+        res.end("TD");
+        //res.render("index");
     });
 
     router.get('/search/:search', function(req, res){
