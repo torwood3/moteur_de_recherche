@@ -4,6 +4,7 @@
   "description": "TD IWA 2015 ESME",
   "main": "bin/www",
   "scripts": {
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
