@@ -7,7 +7,7 @@ $().ready(function(){
 
     function getSearch(){
         var search = $("input[name=searchField]").val();
-        $.getJSON("/search/" + search, function(data){
+        $.getJSON("http://moteur-recherche-esme.herokuapp.com/search/" + search, function(data){
             console.log(data);
         }).fail(function(){
             alert("Error, try again !");
