@@ -62,12 +62,6 @@ function extractStudent(tableList){
     var regWithPhoneNumber = /(.*)<br><script>.*k\('(.*)','','',''\);.*phone:(.*)">.*###(.*)/g;
     var regWithoutPhoneNumber = /(.*)<br><script>.*k\('(.*)','','',''\);.*###(.*)/g;
 
-    //var result = regWithPhoneNumber.exec(tableList[2]);
-    //    if( !result ) {
-    //        result = regWithoutPhoneNumber.exec(tableList[2]);
-    //    }
-    //    console.log(result)
-    //
     tableList.forEach(function(element){
         var result = regWithPhoneNumber.exec(element);
 
