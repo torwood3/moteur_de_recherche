@@ -24,3 +24,16 @@ input[type="text"].focus {
 div.searchResult{
     margin-top: 20px;
 }
+
+.highLight {
+    background-color: lightgoldenrodyellow ;
+}
+
+.className {
+    font-style: oblique;
+    font-size: large;
+}
+
+#result {
+    margin-top: 30px;
+}

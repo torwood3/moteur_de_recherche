@@ -12,14 +12,19 @@
             <div class="searchEngine col-md-6 col-md-offset-3">
                 <input type="text" name="searchField" class="input" placeholder="Search"/>
                 <button class="btn btn-default btn-lg"> <span class="glyphicon glyphicon-search"></span></button>
+                <span id="message"></span>
             </div>
         </div>
         <div class="row searchResult">
             <div class="col-md-3 serachFiltre">
-                    Filtre
+                    Filtre par classe <button class="btn btn-danger" id="stopFiltre">Aucun</button>
+                <ul id="filtreClass" class="list-group">
+
+                </ul>
             </div>
-            <div class="col-md-6">
-                Result
+            <div class="col-md-6" >
+                <table class="table" id="result">
+                </table>
             </div>
         </div>
     </div>
